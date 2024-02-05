@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header {
+    display: grid;
+    grid-column: 2/3;
+    text-align: start;
+}
+
+.notification-corner {
+    grid-column: 3/3;
+}
+
+.user-options {
+    grid-column: 3/3;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1/4;
+    gap: 40px;
+    background-color: aqua;
+}
+
+.main-content-container {
+    display: grid;
+    background-color: grey;
+}
