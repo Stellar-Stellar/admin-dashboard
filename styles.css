@@ -3,18 +3,37 @@ body {
     grid-template-columns: 1fr 2fr;
 }
 
+.notification-corner img {
+    height: 30px;
+    width: 30px;
+}
+
+.user-greeting img {
+    height: 50px;
+    width: 50px;
+}
+
 .header {
     display: grid;
     grid-column: 2/3;
     text-align: start;
 }
 
+.searchbar-corner, .notification-corner, .user-options, .user-greeting, .account-options, .dashboard-options, .dashboard-title {
+    padding: 10px;
+}
+
 .notification-corner {
+    display: grid;
     grid-column: 3/3;
+    grid-template-columns: repeat(1, 30px) repeat(1, 1fr);
+    padding: 10px;
 }
 
 .user-options {
+    display: grid;
     grid-column: 3/3;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .sidebar {
