@@ -23,11 +23,53 @@ body {
     padding: 10px;
 }
 
+.user-projects {
+    padding: 20px;
+}
+
+#super-cool-project, #impossible-app, #ad-blocker {
+    grid-column: 1;
+}
+
+#easy-peasy-app, #less-cool-project, #money-maker {
+    grid-column: 2;
+}
+
+#less-cool-project {
+    grid-row: 1;
+}
+
+#easy-peasy-app {
+    grid-row: 2;
+}
+
+#money-maker {
+    grid-row: 3;
+}
+
+.searchbar {
+    display: grid;
+    background-color: green;
+}
+
 .notification-corner {
     display: grid;
     grid-column: 3/3;
     grid-template-columns: repeat(1, 30px) repeat(1, 1fr);
     padding: 10px;
+}
+
+.user-greeting {
+    display: grid;
+    justify-content: start;
+}
+
+.user-greeting-message {
+    grid-column: 2;
+}
+
+.user-greeting-name {
+    font-size: 20px;
 }
 
 .user-options {
