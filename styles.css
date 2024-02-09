@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .notification-corner img {
@@ -15,7 +15,7 @@ body {
 
 .header {
     display: grid;
-    grid-column: 2/3;
+    grid-column: 2/4;
     text-align: start;
 }
 
@@ -85,7 +85,8 @@ body {
     background-color: aqua;
 }
 
-.main-content-container {
+.projects-container {
     display: grid;
     background-color: grey;
+    grid-column: 2;
 }
