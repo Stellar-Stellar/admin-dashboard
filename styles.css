@@ -83,10 +83,18 @@ body {
     grid-row: 1/4;
     gap: 40px;
     background-color: aqua;
+    height: 1000px;
 }
 
 .projects-container {
     display: grid;
     background-color: grey;
     grid-column: 2;
+    height: 880px;
+}
+
+.announcements-container {
+    display: grid;
+    background-color: yellow;
+    height: 440px;
 }
